@@ -1,0 +1,63 @@
+body{
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    text-align: center;
+}
+.container>div{
+    border: 2px solid #c1afaf;
+    max-width: 200px;
+    margin: auto;
+    background-image:url(./img/pla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50%;
+}
+.button{
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    background-color: darkcyan;
+}
+.button:active{
+    background-color: black;
+}
+.planets-all{
+    font-size: 25px;
+    color: white;
+}
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.people>div{
+    width: 20%;
+    text-align: center;
+    border: 2px solid #c1afaf;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.films{
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    background-color: darkcyan;
+    width: 40px;
+    background-image: url(./img/search.svg);
+    height: 20px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0 25px;
+
+}
